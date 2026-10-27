@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 14px/1.6 -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #1f2328;
+  background: #f6f8fa;
+}
+
+.options {
+  max-width: 640px;
+  margin: 32px auto;
+  padding: 24px 28px;
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 14px;
+  margin: 0 0 6px;
+}
+
+section {
+  padding: 16px 0;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.desc {
+  color: #57606a;
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+}
+.badge.granted { background: #e6f4ea; border-color: #137333; color: #137333; }
+.badge.stale { background: #fef7e0; border-color: #b26a00; color: #b26a00; }
+
+button {
+  font: inherit;
+  padding: 6px 14px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  background: #f6f8fa;
+  cursor: pointer;
+}
+button:hover { background: #eef1f4; }
+button.primary { background: #1a73e8; border-color: #1a73e8; color: #fff; }
+button.primary:hover { background: #1765cc; }
+button.danger { color: #cf222e; border-color: #cf222e; background: #fff; }
+button.danger:hover { background: #fff1f0; }
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  font: inherit;
+  padding: 8px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.warn {
+  color: #b26a00;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.msg {
+  color: #137333;
+  font-size: 13px;
+}
